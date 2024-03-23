@@ -1,0 +1,59 @@
+body{
+    background-color: #DFF5FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.contenedor-imagen{
+    position: relative;
+    margin-right: 100px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.imagen{
+    height: 280px;
+    border-radius: 25px;
+}
+.menu-navegacion{
+    flex-grow: 1;
+    margin-top: -180px;
+    
+    
+
+}
+.navegacion{
+    list-style-type:none;
+    
+    
+}
+.menu{
+    
+    padding: 15px 20px;
+    display: inline-block;
+    margin-right: 25px;
+    background: #DDDDDD;
+    transition: background 0.3s ease ; 
+    border-radius: 20px;
+}
+
+.menu:hover{
+    background:grey;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.menu a:hover{
+    color: black;
+}
+ /* cuerpo del docuemnto*/
+
+ h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
